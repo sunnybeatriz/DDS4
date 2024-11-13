@@ -1,4 +1,4 @@
-Loguin: ryansantos@gmail.com
+Login: ryansantos@gmail.com
 Senha: sosajuda
 
 
