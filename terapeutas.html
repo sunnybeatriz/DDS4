@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Mind IA - Terapeutas</title>
+<style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f4f4f9;
+       }
+       .cabecalho {
+           width: 80%;
+           margin: auto;
+           overflow: hidden;
+       }
+       h1 {
+           text-align: center;
+           padding: 20px;
+           color: #333;
+       }
+       .terapeuta-cartão {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           background-color: #fff;
+           border: 1px solid #ddd;
+           border-radius: 8px;
+           padding: 20px;
+           margin: 20px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           width: calc(25% - 40px);
+           box-sizing: border-box;
+           text-align: center;
+       }
+       .terapeuta-cartão img {
+           border-radius: 50%;
+           width: 100px;
+           height: 100px;
+           margin-bottom: 10px;
+       }
+       .terapeuta-nome {
+           font-size: 1.2em;
+           color: #333;
+           margin-bottom: 10px;
+       }
+       .terapia-especialista {
+           color: #777;
+           font-style: italic;
+           margin-bottom: 15px;
+       }
+       .terapeuta-descriçao {
+           font-size: 0.9em;
+           color: #555;
+           margin-bottom: 15px;
+       }
+       .terapeuta-cartão button {
+           padding: 10px 20px;
+           background-color: #4CAF50;
+           color: #fff;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s;
+       }
+       .terapeuta-cartão button:hover {
+           background-color: #45a049;
+       }
+       .terapeutas {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+       }
+</style>
+</head>
+<body>
+<div class="cabecalho">
+<h1>Conheça Nossos Terapeutas</h1>
+<div class="terapeutas">
+<div class="terapeuta-cartão">
+<img src="terap.avif" alt="Terapeuta 1">
+<div class="terapeuta-nome">Mariane</div>
+<div class="terapia-especialista">Psicóloga Cognitivo-Comportamental</div>
+<div class="terapeuta-descriçao">Mariane tem mais de 10 anos de experiência em ajudar pessoas a lidar com ansiedade e depressão.</div>
+<button>Agendar Sessão</button>
+</div>
+<div class="terapeuta-cartão">
+<img src="homem2.jpg" alt="Terapeuta 2">
+<div class="terapeuta-nome">Fernando</div>
+<div class="terapia-especialista">Psicólogo Humanista</div>
+<div class="terapeuta-descriçao">Fernando trabalha focado em escuta empática e no desenvolvimento pessoal de cada paciente.</div>
+<button>Agendar Sessão</button>
+</div>
+<div class="terapeuta-cartão">
+<img src="mulher.jpg" alt="Terapeuta 3">
+<div class="terapeuta-nome ">IA feminino</div>
+<button>Iniciar Sessão</button>
+</div>
+<div class="terapeuta-cartão">
+<img src="homem.jpg" alt="Terapeuta 4">
+<div class="terapeuta-nome">IA masculino</div>
+<button>Iniciar Sessão</button>
+</div>
+</div>
+</div>
+</body>
+</html>
